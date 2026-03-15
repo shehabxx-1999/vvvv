@@ -2,7 +2,7 @@ from curl_cffi import requests
 from bs4 import BeautifulSoup
 import time
 success=0
-for i in range(10000):
+while True:
   try:
     print(f"We Are In Iteration {i}")
     session = requests.Session()
